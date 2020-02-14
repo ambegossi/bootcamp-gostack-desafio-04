@@ -32,3 +32,99 @@ body {
 #my_profile img{
   margin-left: 10px;
 }
+
+.post-box {
+  background-color: #FFF;
+  width: 700px;
+  flex: 1;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #999999;
+}
+
+.user-info-box {
+  display: flex;
+  align-items: center;
+}
+
+.user-info-box img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 15px;
+  margin-right: 20px;
+}
+
+.comment-avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-avatar {
+  height: 35px;
+  width: 35px;
+}
+
+.date {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.name {
+  font-size: 17px;
+  color: rgb(24,24,24);
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 15px;
+  color: rgb(36, 36, 36);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+hr.divider {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 98%;
+}
+
+.dividerWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.postsWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentWrapper{
+  display: flex;
+  align-items: flex-start;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.commentWrapper:last-child{
+  margin-bottom: 20px;
+}
+
+.comment-box{
+  background-color: #EEEEEE;
+  padding: 10px;
+  border-radius: 20px;
+  flex-shrink: 1;
+  font-size: 14px;
+}
+
+.comment-content {
+  line-height: 20px;
+}
